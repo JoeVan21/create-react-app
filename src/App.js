@@ -2,7 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  return ( <>
+
+<div class="buttons">
+  
+  <button class="btnDup">Duplicate</button>
+  <button id="del">Delete</button>
+  <button class="btnDet">Details</button> 
+  <button class="btnHead">Change Header</button>
+  <button  class="btnBack">Change Background</button>
+  
+  </div>
+
+
     <div class="borders">
   <div class="card">
   <h2>Nick Singleton </h2> 
@@ -17,7 +29,7 @@ function App() {
   </div>
 
 
-  );
+</> );
 }
 
 export default App;
